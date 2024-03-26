@@ -13,6 +13,7 @@ public class StosWyjatkow {
     }
     public void metoda4(){
         System.out.println("Metoda 4");
+        throw new RuntimeException("WOW");
     }
 
 }
